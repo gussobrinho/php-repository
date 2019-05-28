@@ -21,14 +21,21 @@
             echo "</br>"."Salario exponencial: "."R$".pow($meses,12);
 
             // Raiz Quadrada
-            echo "</br>"."Salario exponencial: "."R$".sqrt(36);
+            echo "</br>"."Raiz quadrada: ".sqrt(36);
 
             // Randômico Generica
+            echo "</br>"."Randômico generico: ".rand();
 
             // Randômico entre um intervalo
+            echo "</br>"."Randômico com intervalo: ".rand(1,1000);
 
             // Valor absoluto
-            
+            // Valor que não pode ser negativo
+            echo "</br>"."Valor absoluto: ".abs(-10);
+
+            // Conversão de base
+            // Decimal para binária
+            echo "</br>"."Decimal para binária: ".base_convert(100, 10, 2);
         ?>
     </body>
 </html>
