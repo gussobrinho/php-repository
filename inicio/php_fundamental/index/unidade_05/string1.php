@@ -1,3 +1,9 @@
+<?php
+    $_nome = "Maria";
+    $_sobrenome = "Joaquina";
+    $_fullname = $_nome. " " .$_sobrenome;
+?>
+
 <!doctype html>
 <html>
     <head>
@@ -6,5 +12,6 @@
     </head>
 
     <body>
+    <p><?php echo $_fullname ?></p>
     </body>
 </html>
