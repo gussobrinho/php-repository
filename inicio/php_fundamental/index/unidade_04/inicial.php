@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Curso PHP FUNDAMENTAL</title>
+        <title>Curso PHP Fundamental</title>
     </head>
     
     <body>
