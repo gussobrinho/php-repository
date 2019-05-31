@@ -19,6 +19,7 @@
     <pre>
         <?php
             /*Para ordenar de forma decrescente usa-se rsort()*/
+            /*Para embaralhar o array utiliza-se shuffle()*/
             sort($lost);
             print_r($lost);
         ?>
